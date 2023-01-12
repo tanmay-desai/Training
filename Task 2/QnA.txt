@@ -1,0 +1,116 @@
+1.HTML Task
+    a. What is HTML? Give basic structure of the HTML page.
+        -Structure the page layouts of a website.  
+        -HTML stands for HYPERTEXT MARKUP LANGUAGE, as its full form suggests it’s not any programming language, a markup language. 
+        -So, while the execution of HTML code we can’t face any such error. 
+        -In real HTML code wasn’t compiled or interpreted because HTML code was rendered by the browser.
+        -Structure
+            -HEAD: 
+                This contains the information about the HTML document. 
+                For Example, the Title of the page, version of HTML, Meta Data, etc.
+            -BODY: 
+                This contains everything you want to display on the Web Page.
+
+    b. Difference between inline and block level element.
+        -Block elements: 
+            They consume the entire width available irrespective of their sufficiency. 
+            They always start in a new line and have top and bottom margins. 
+            It does not contain any other elements next to it.
+            Examples of Block elements:
+                h1-h6, div, p, table, ul, ol, li, etc.
+        -Inline elements:
+            Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are inline. 
+            Inline elements don’t start from a new line and don’t have top and bottom margins as block elements have.
+            Examples of Inline elements:
+                a, br, script, img, span, input, label, etc.
+    c. Create an HTML page “index.htm” with following content
+
+2.CSS Task 
+    a. Explain the different ways in which CSS can be applied to HTML, what is the preferred way and why.
+        CSS can be added to HTML documents in 3 ways:
+            Inline - by using the style attribute inside HTML elements
+            Internal - by using a <style> element in the <head> section
+            External - by using a <link> element to link to an external CSS file
+
+        Best Approach: 
+            The External Style Sheet (using HTML <link> Tag) is the best method which is used to link the element. 
+            Maintaining and re-using the CSS file across different pages is easy and efficient.    
+            Readability also is better as one does not have to go through the entire html document when compared to inline style.
+
+    b. What are different CSS selectors, with example explain Element, Class and Id selectors.
+        CSS selectors are used to "find" (or select) the HTML elements you want to style.
+        We can divide CSS selectors into five categories:
+            1. Simple selectors (select elements based on name, id, class)
+            2. Combinator selectors (select elements based on a specific relationship between them)
+            3. Pseudo-class selectors (select elements based on a certain state)
+            4. Pseudo-elements selectors (select and style a part of an element)
+            5. Attribute selectors (select elements based on an attribute or attribute value)
+
+        The element selector selects HTML elements based on the element name.
+        Example: Here, all <p> elements on the page will be center-aligned, with a red text color: 
+            p {
+              text-align: center;
+              color: red;
+            }
+        
+        The id selector uses the id attribute of an HTML element to select a specific element.
+        The id of an element is unique within a page, so the id selector is used to select one unique element!
+        To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+        Example: The CSS rule below will be applied to the HTML element with id="para1": 
+            #para1 {
+              text-align: center;
+              color: red;
+            }
+
+        The class selector selects HTML elements with a specific class attribute.
+        To select elements with a specific class, write a period (.) character, followed by the class name.
+        Example: In this example all HTML elements with class="center" will be red and center-aligned: 
+            .center {
+              text-align: center;
+              color: red;
+            } 
+
+    c. With the help of a diagram explain CSS Box Model.
+        In CSS, the term "box model" is used when talking about design and layout.
+        The CSS box model is essentially a box that wraps around every HTML element. 
+        It consists of: 
+            margins, borders, padding, and the actual content. 
+        The image below illustrates the box model:
+            data:image/png;base64,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
+        
+        By default, the width and height of an element is calculated like this:
+        height + padding + border = actual height of an element
+        width + padding + border = actual width of an element
+        This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and padding are added to the element's specified width/height).
+
+        The box-sizing property allows us to include the padding and border in an element's total width and height.
+        If you set box-sizing: border-box; on an element, padding and border are included in the width and height: 
+        Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
+        The code below ensures that all elements are sized in this more intuitive way. Many browsers already use box-sizing: border-box; for many form elements (but not all - which is why inputs and text areas look different at width: 100%;).
+        * {
+            box-sizing: border-box;
+        }
+
+    d. To HTML page create in the task 1.a, apply following CSS
+
+3.JavaScript 
+    a. List down ways in which JavaScript command can be added to a webpage, what is the preferred way.
+        The HTML <script> tag is used to define a client-side script (JavaScript).
+        The <script> element either contains script statements, or it points to an external script file through the src attribute.        
+        You can place any number of scripts in an HTML document.
+        Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+           Internal JavaScript: 
+            <script>
+                //code goes here
+            </script>
+        Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+        External scripts are practical when the same code is used in many different web pages.
+        JavaScript files have the file extension .js.
+        To use an external script, put the name of the script file in the src (source) attribute of a <script> tag
+            <script src="path/to/your/file.js"></script>
+
+
+    b. To the webpage created in the task 2.d , on click of “Submit” button call JavaScript function to validate:
+        i. Name and comments fields are not empty.
+        ii. User has selected one entry from male/female radio button
+        iii. In case user has not entered data for name and comment field or not selected anything from male/female radio button – show alert message “All fields are compulsory” and set focus to the first filed that is empty.

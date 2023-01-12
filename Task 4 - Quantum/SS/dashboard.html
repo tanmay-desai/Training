@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./icons/header.svg" alt="logo" />
+      <div class="nav-links">
+        <div class="nav-item nav-active link">Dashboard</div>
+        <div class="nav-item link">Content</div>
+        <div class="nav-item link">Users</div>
+        <div class="nav-item link">Reports</div>
+        <div class="nav-item link">Admin</div>
+        <div class="nav-item">
+          <div class="alert">2</div>
+          <img
+            src="./icons/alerts.svg"
+            alt=""
+            style="height: 24px; width: 21px"
+          />
+        </div>
+        <div class="nav-item">
+          <div class="alert">1</div>
+          <img
+            src="./icons/announcements.svg"
+            alt=""
+            style="height: 20px; width: 20px"
+          />
+        </div>
+        <div class="nav-item profile">
+          <div class="alert-text">T</div>
+          <img
+            src="./assets/icons/account_circle.svg"
+            alt=""
+            style="height: 32px; width: 32px; margin-right: 24px"
+          />
+        </div>
+        <div class="nav-item hamburger">
+          <img
+            src="./assets/icons/hamburger-menu.svg"
+            alt=""
+            style="height: 32px; width: 32px"
+          />
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="tabs">
+        <div class="tab-item tab-active">
+          <img
+            src="./assets/icons/courses.svg"
+            alt=""
+            style="height: 32px; width: 21px"
+          />
+          <span>4</span>
+          Courses
+        </div>
+        <div class="tab-item">
+          <img
+            src="./assets/icons/classes.svg"
+            alt=""
+            style="height: 32px; width: 21px"
+          />
+          <span>4</span>
+          Classes
+        </div>
+      </div>
+      <div class="filter">
+        <p>Showing 4 of 4 courses</p>
+        <div class="sort">
+          <p class="label">Sort by:</p>
+          <div class="custom-select">
+            <select>
+              <option value="1">Course Name</option>
+              <option value="1">Lake Region</option>
+              <option value="1">Seattle</option>
+              <option value="1">Alabama</option>
+            </select>
+          </div>
+          <div class="arrow">
+            <img src="./assets/icons/sort.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="cards">
+        <div class="card-item">
+          <div class="star"><img src="./icons/favourite.svg" alt="" /></div>
+          <div class="card-details">
+            <div class="card-image">
+              <img src="./images/imageMask.png" alt="" />
+            </div>
+            <div class="card-text">
+              <p class="text-title">Accelaration</p>
+              <div class="flex-row" style="margin-top: 7px">
+                Physics
+                <div class="divi"></div>
+                Grade 7<span style="color: #1f7a54; margin-left: 2px">+2</span>
+              </div>
+              <div class="flex-row">
+                <div class="bold">4</div>
+                Units
+                <div class="bold">18</div>
+                Lessons
+                <div class="bold">24</div>
+                Topics
+              </div>
+              <div class="custom-select card-select">
+                <select>
+                  <option value="1">Mr. Frank's Class B</option>
+                  <option value="1">Lake Region</option>
+                  <option value="1">Seattle</option>
+                  <option value="1">Alabama</option>
+                </select>
+              </div>
+              <div class="flex-row">
+                <p style="margin-right: 17px">50 Students</p>
+                <p>21-Jan-2020 - 21-Aug-2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-icons">
+            <img src="./assets/icons/preview.svg" alt="" style="height: 24px" />
+            <img src="./assets/icons/manage course.svg" alt="" />
+            <img src="./assets/icons/grade submissions.svg" alt="" />
+            <img src="./assets/icons/reports.svg" alt="" style="height: 24px" />
+          </div>
+        </div>
+        <div class="card-item">
+          <div class="star"><img src="./icons/favourite.svg" alt="" /></div>
+          <div class="card-details">
+            <div class="card-image">
+              <img src="./images/imageMask-1.png" alt="" />
+            </div>
+            <div class="card-text">
+              <p class="text-title a" style="width: 200px">
+                Displacement, Velocity and Speed
+              </p>
+              <div class="flex-row" style="margin-top: 7px">
+                Physics 2
+                <div class="divi"></div>
+                Grade 6<span style="color: #1f7a54; margin-left: 2px">+3</span>
+              </div>
+              <div class="flex-row">
+                <div class="bold">2</div>
+                Units
+                <div class="bold">15</div>
+                Lessons
+                <div class="bold">20</div>
+                Topics
+              </div>
+              <div class="custom-select card-select disabled">
+                <select disabled>
+                  <option value="1">No Classes</option>
+                  <option value="1">Lake Region</option>
+                  <option value="1">Seattle</option>
+                  <option value="1">Alabama</option>
+                </select>
+              </div>
+              <div class="flex-row"></div>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-icons">
+            <img src="./assets/icons/preview.svg" alt="" style="height: 24px" />
+            <img
+              src="./assets/icons/manage course.svg"
+              alt=""
+              class="disabled"
+            />
+            <img
+              src="./assets/icons/grade submissions.svg"
+              alt=""
+              class="disabled"
+            />
+            <img src="./assets/icons/reports.svg" alt="" style="height: 24px" />
+          </div>
+        </div>
+        <div class="card-item">
+          <div class="star"><img src="./icons/favourite.svg" alt="" /></div>
+          <div class="card-details">
+            <div class="card-image">
+              <img src="./images/imageMask-3.png" alt="" />
+            </div>
+            <div class="card-text">
+              <p class="text-title">
+                Introduction to Biology: Micro organisms and how they affec...
+              </p>
+              <div class="flex-row" style="margin-top: 7px">
+                Biology
+                <div class="divi"></div>
+                Grade 4<span style="color: #1f7a54; margin-left: 2px">+1</span>
+              </div>
+              <div class="flex-row">
+                <div class="bold">5</div>
+                Units
+                <div class="bold">16</div>
+                Lessons
+                <div class="bold">22</div>
+                Topics
+              </div>
+              <div class="custom-select card-select">
+                <select>
+                  <option value="1">All Classes</option>
+                  <option value="1">Lake Region</option>
+                  <option value="1">Seattle</option>
+                  <option value="1">Alabama</option>
+                </select>
+              </div>
+              <div class="flex-row">
+                <p style="margin-right: 17px">300 Students</p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-icons">
+            <img src="./assets/icons/preview.svg" alt="" style="height: 24px" />
+            <img
+              src="./assets/icons/manage course.svg"
+              alt=""
+              class="disabled"
+            />
+            <img
+              src="./assets/icons/grade submissions.svg"
+              alt=""
+              class="disabled"
+            />
+            <img src="./assets/icons/reports.svg" alt="" style="height: 24px" />
+          </div>
+        </div>
+        <div class="card-item">
+          <div class="star star-disabled">
+            <img src="./icons/favourite.svg" alt="" />
+          </div>
+          <div class="card-details">
+            <div class="card-image">
+              <img src="./images/imageMask-2.png" alt="" />
+            </div>
+            <div class="card-text">
+              <p class="text-title">Introduction to High School Mathematics</p>
+              <div class="flex-row" style="margin-top: 7px">
+                Mathematics
+                <div class="divi"></div>
+                Grade 8<span style="color: #1f7a54; margin-left: 2px">+3</span>
+              </div>
+
+              <div class="custom-select card-select">
+                <select>
+                  <option value="1">Mr. Frank's Class A</option>
+                  <option value="1">Lake Region</option>
+                  <option value="1">Seattle</option>
+                  <option value="1">Alabama</option>
+                </select>
+              </div>
+              <div class="flex-row">
+                <p style="margin-right: 17px">44 Students</p>
+                <p>14-Oct-2019 - 20-Oct-2020</p>
+              </div>
+            </div>
+            <div class="expired">expired</div>
+          </div>
+          <div class="card-divider"></div>
+          <div class="card-icons">
+            <img src="./assets/icons/preview.svg" alt="" style="height: 24px" />
+            <img src="./assets/icons/manage course.svg" alt="" />
+            <img src="./assets/icons/grade submissions.svg" alt="" />
+            <img src="./assets/icons/reports.svg" alt="" style="height: 24px" />
+          </div>
+        </div>
+      </div>
+      <div class="links">
+        <p>About</p>
+        <span></span>
+        <p>Contact Us</p>
+      </div>
+    </div>
+    <footer>
+      <img src="./icons/footer.svg" alt="" />
+      <span></span>
+      <p>Copyright © 2020-2021</p>
+      <p class="brand">Zeus Systems Pvt. Ltd.</p>
+      <p>All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="preload"
+      href="./font/Quicksand-VariableFont_wght.ttf"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./icons/header.svg" alt="logo" />
+    </nav>
+    <div class="container">
+      <div class="form">
+        <div class="form-heading">
+          <img src="./icons/back.svg" alt="" />
+          <p>Log in with Quantum</p>
+        </div>
+        <div class="form-radio">
+          <label for="myRadioId" class="radio">
+            <input
+              type="radio"
+              name="myRadioField"
+              id="myRadioId"
+              class="radio__input"
+            />
+            <div class="radio__radio"></div>
+            District
+          </label>
+          <label for="myRadioId2" class="radio">
+            <input
+              type="radio"
+              name="myRadioField"
+              id="myRadioId2"
+              class="radio__input"
+            />
+            <div class="radio__radio"></div>
+            Independent School
+          </label>
+        </div>
+        <div class="form-dropdown">
+          <p class="label">State*</p>
+          <div class="custom-select">
+            <select>
+              <option value="1">Alabama</option>
+              <option value="1">New York</option>
+              <option value="1">Washington</option>
+              <option value="1">New Jersey</option>
+            </select>
+          </div>
+          <div class="dropdown-hr"></div>
+        </div>
+        <div class="form-dropdown district">
+          <p class="label">District*</p>
+          <div class="custom-select">
+            <select>
+              <option value="1">Alabama District School</option>
+              <option value="1">Lake Region</option>
+              <option value="1">Seattle</option>
+              <option value="1">Alabama</option>
+            </select>
+          </div>
+          <div class="dropdown-hr"></div>
+        </div>
+        <div class="form-input">
+          <input type="text" placeholder="Username/Email ID*" />
+          <div class="dropdown-hr"></div>
+          <p class="forgot">FORGOT USERNAME?</p>
+        </div>
+        <div class="form-input password">
+          <div class="password-input">
+            <input type="password" placeholder="Password*" />
+            <img src="./icons/preview.svg" alt="" style="cursor: pointer" />
+          </div>
+          <div class="dropdown-hr"></div>
+          <p class="forgot">FORGOT PASSWORD?</p>
+        </div>
+        <div class="form-checkbox">
+          <label for="checkbox" class="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="checkbox__checkbox"></div>
+            Remember Me
+          </label>
+        </div>
+        <a href="Dashboard2.html" target="_blank">
+          <button class="form-button">LOG IN</button></a
+        >
+      </div>
+      <div class="links">
+        <p>About</p>
+        <span></span>
+        <p>Contact Us</p>
+      </div>
+    </div>
+    <footer>
+      <img src="./icons/footer.svg" alt="" />
+      <span></span>
+      <p>Copyright © 2020-2021</p>
+      <p class="brand">Zeus Systems Pvt. Ltd.</p>
+      <p>All rights reserved.</p>
+    </footer>
+  </body>
+</html>
